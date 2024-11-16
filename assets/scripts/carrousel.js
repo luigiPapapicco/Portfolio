@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Charger les données JSON et extraire les compétences
   async function loadCompetences() {
     try {
-      const response = await fetch('../../assets/data/data.json')
+      const response = await fetch('./assets/data/data.json')
       const data = await response.json()
       const competences = data.competences // Extraire uniquement la section "competences"
       createCarouselItems(competences)

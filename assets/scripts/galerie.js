@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Charger les projets depuis le fichier JSON
   async function loadProjects() {
     try {
-      const response = await fetch('../../assets/data/data.json')
+      const response = await fetch('./assets/data/data.json')
       const data = await response.json()
       projects = data.projects // Charger uniquement la section "projects"
       displayProjects() // Afficher tous les projets au démarrage
