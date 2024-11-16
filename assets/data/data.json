@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Booky",
       "description": "Début de l'alternance chez booki en tant que développeur web. L'entreprise veut développer un site Internet qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
-      "image": "../../assets/Images/screen/home_booky.png",
+      "image": "./assets/Images/screen/home_booky.png",
       "tags": ["HTML", "CSS"],
       "technologies": ["HTML", "CSS"],
       "link": "https://luigipapapicco.github.io/Booky/"
@@ -13,7 +13,7 @@
       "id": 2,
       "title": "Ohmyfood",
       "description": "Ohmyfood est une entreprise spécialisée dans la réservation de tables dans des restaurants gastronomiques à Paris, visant les amateurs de cuisine raffinée, connectées et souvent pressées. Elle propose des réservations rapides, des menus exclusifs créés par des chefs partenaires, et met en avant des restaurants innovants pour offrir des expériences culinaires uniques.",
-      "image": "../../assets/Images/screen/home_ohmyfood.png",
+      "image": "./assets/Images/screen/home_ohmyfood.png",
       "tags": ["HTML", "CSS", "Sass"],
       "technologies": ["HTML", "CSS", "SASS"],
       "link": "https://luigipapapicco.github.io/Ohmyfood/"
@@ -22,7 +22,7 @@
       "id": 3,
       "title": "Print It",
       "description": "Vous débutez comme développeur front-end en freelance, et venez de décrocher une offre pour dynamiser le site Internet statique de l'imprimerie Print it.",
-      "image": "../../assets/Images/screen/home_printit.jpg",
+      "image": "./assets/Images/screen/home_printit.jpg",
       "tags": ["HTML", "CSS", "JavaScript"],
       "technologies": ["HTML", "CSS", "Javascript"],
       "link": "https://luigipapapicco.github.io/Print_it/"
@@ -31,7 +31,7 @@
       "id": 4,
       "title": "Portfolio de l'architecte Sophie Bluel",
       "description": "Vous travaillez comme développeur front-end pour l'agence ArchiWebos sur la conception d'un site portfolio d'une architecte d'intérieur.",
-      "image": "../../assets/Images/screen/home_sophiebluel.png",
+      "image": "./assets/Images/screen/home_sophiebluel.png",
       "tags": ["HTML", "CSS", "JavaScript"],
       "technologies": ["HTML", "CSS", "Javascript"],
       "link": "https://github.com/luigiPapapicco/Sophie_Bluel/"
@@ -40,7 +40,7 @@
       "id": 5,
       "title": "Kasa",
       "description": "Kasa vous recrute en tant que développeur Frontend en Freelance pour développer sa nouvelle plateforme web. Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. La CTO a donc lancé une refonte total pour passer à une stack complète en JavaScript, avec Node.js côté Back-end et React.js côté Front-end, ce qui va être notre rôle ici.",
-      "image": "../../assets/Images/screen/home_kasa.png",
+      "image": "./assets/Images/screen/home_kasa.png",
       "tags": ["HTML", "CSS", "JavaScript", "Sass", "React"],
       "technologies": ["HTML", "CSS", "SASS", "Javascript", "React"],
       "link": "https://github.com/https://github.com/luigiPapapicco/Kasa"
@@ -52,49 +52,49 @@
       "title": "HTML",
       "description": "Le HTML (HyperText Markup Language) est le langage de balisage standard utilisé pour structurer le contenu d'une page web. Il définit la structure et l'organisation des éléments de la page, tels que les titres, les paragraphes, les images, les liens, les listes, et bien plus encore. Chaque élément HTML est représenté par des balises, qui indiquent au navigateur comment afficher et organiser le contenu. Le HTML constitue le squelette de base d'un site web, servant de fondation aux autres technologies comme le CSS (pour le style) et JavaScript (pour les interactions dynamiques).",
       "txtAlt": "Présentation  de la technologie html",
-      "image": "assets/Icons/html.svg"
+      "image": "./assets/Icons/html.svg"
     },
     {
       "id": 2,
       "title": "CSS",
       "description": "Le CSS (Cascading Style Sheets) est un langage de style utilisé pour contrôler l'apparence et la mise en page des pages web. Tandis que le HTML structure le contenu, le CSS apporte le style, définissant les couleurs, les polices, les espacements, l'alignement, les dimensions, et d'autres aspects visuels. Le CSS permet aussi de créer des effets interactifs (comme les transitions et animations), de gérer les dispositions sur différents écrans (responsive design), et d'offrir une expérience utilisateur cohérente et agréable. Avec le CSS, une structure HTML basique peut être transformée en une interface esthétique et moderne, adaptée aux attentes des utilisateurs.",
       "txtAlt": "Présentation  de la technologie css",
-      "image": "assets/Icons/css.svg"
+      "image": "./assets/Icons/css.svg"
     },
     {
       "id": 3,
       "title": "Sass",
       "description": "Sass (Syntactically Awesome Style Sheets) est un préprocesseur CSS qui étend les fonctionnalités du CSS en ajoutant des outils puissants tels que les variables, l'imbrication, les mixins et l'héritage. Ces fonctionnalités facilitent la gestion et la modularité des feuilles de style, permettant de produire un code CSS plus propre, réutilisable et maintenable. Avec Sass, les développeurs peuvent organiser leur code CSS de manière plus efficace, ce qui est particulièrement utile pour les grands projets. Le code Sass est ensuite compilé en CSS standard pour être interprété par les navigateurs, offrant ainsi une structure avancée sans compromettre la compatibilité.",
       "txtAlt": "Présentation  de la technologie sass",
-      "image": "assets/Icons/sass.svg"
+      "image": "./assets/Icons/sass.svg"
     },
     {
       "id": 4,
       "title": "JavaScript",
       "description": "JavaScript est un langage de programmation essentiel pour le développement web, qui permet de rendre les pages interactives et dynamiques. Contrairement au HTML et au CSS, qui gèrent la structure et le style, JavaScript ajoute des fonctionnalités avancées aux sites web, comme la gestion des événements, les animations, la validation de formulaires, et les mises à jour de contenu en temps réel sans rechargement de la page (grâce à AJAX). Il est également utilisé côté serveur, notamment avec des environnements comme Node.js, ce qui fait de JavaScript un langage polyvalent pour le développement full-stack. C'est un langage incontournable pour créer des expériences utilisateurs interactives et renforcer l'engagement sur les sites web.",
       "txtAlt": "Présentation  de la technologie JavaScript",
-      "image": "assets/Icons/javascript.svg"
+      "image": "./assets/Icons/javascript.svg"
     },
     {
       "id": 5,
       "title": "Python",
       "description": "Python est un langage de programmation polyvalent, apprécié pour sa syntaxe simple et lisible, ce qui en fait un excellent choix aussi bien pour les débutants que pour les experts. Python est utilisé dans de nombreux domaines, tels que le développement web, la science des données, l'intelligence artificielle, l'automatisation, et bien plus encore. Grâce à sa large bibliothèque standard et à ses nombreux frameworks (comme Django pour le web ou TensorFlow pour l'IA), Python permet de développer rapidement des applications complexes. Sa communauté active et son écosystème en constante expansion en font un langage populaire et puissant pour de multiples applications.",
       "txtAlt": "Présentation  de la technologie Python",
-      "image": "assets/Icons/python.svg"
+      "image": "./assets/Icons/python.svg"
     },
     {
       "id": 6,
       "title": "React",
       "description": "React est une bibliothèque JavaScript développée par Facebook, utilisée pour construire des interfaces utilisateur interactives et dynamiques, notamment des applications web à une seule page (SPA). React facilite le développement d'interfaces en utilisant des composants réutilisables qui gèrent leur propre état et se mettent à jour efficacement en fonction des changements de données. Grâce à son système de 'Virtual DOM', React permet des mises à jour rapides et optimisées, améliorant ainsi les performances des applications. Sa popularité et sa flexibilité en font un choix privilégié pour les développeurs cherchant à créer des applications réactives et maintenables, avec une architecture organisée et modulaire.",
       "txtAlt": "Présentation  de la technologie React",
-      "image": "assets/Icons/react.svg"
+      "image": "./assets/Icons/react.svg"
     },
     {
       "id": 7,
       "title": "GitHub",
       "description": "GitHub est une plateforme de développement collaboratif qui permet aux développeurs de gérer et de partager du code source en utilisant Git, un système de contrôle de version. GitHub facilite le suivi des modifications apportées au code, la collaboration entre développeurs, et la gestion de projets open-source ou privés. Avec des fonctionnalités telles que les pull requests, les issues (tickets de suivi), et l'intégration continue, GitHub aide les équipes à organiser, tester et déployer leur code de manière efficace. C'est un outil indispensable pour les développeurs, qui simplifie la collaboration et le versionnage des projets.",
       "txtAlt": "Présentation  de la technologie GitHub",
-      "image": "assets/Icons/github.svg"
+      "image": "./assets/Icons/github.svg"
     }
   ]
 }
