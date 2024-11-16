@@ -41,8 +41,8 @@
       "title": "Kasa",
       "description": "Kasa vous recrute en tant que développeur Frontend en Freelance pour développer sa nouvelle plateforme web. Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. La CTO a donc lancé une refonte total pour passer à une stack complète en JavaScript, avec Node.js côté Back-end et React.js côté Front-end, ce qui va être notre rôle ici.",
       "image": "./assets/Images/screen/home_kasa.png",
-      "tags": ["HTML", "CSS", "JavaScript", "Sass", "React"],
-      "technologies": ["HTML", "CSS", "SASS", "Javascript", "React"],
+      "tags": ["CSS", "JavaScript", "Sass", "React"],
+      "technologies": ["CSS", "SASS", "Javascript", "React"],
       "link": "https://github.com/https://github.com/luigiPapapicco/Kasa"
     }
   ],
