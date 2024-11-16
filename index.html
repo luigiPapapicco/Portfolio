@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luigi Papapicco - Intégrateur Web</title>
+  <!-- chargement des scripts -->
+  <script src="assets/scripts/carrousel.js" defer></script>
+  <script src="assets/scripts/galerie.js" defer></script>
+  <!-- Chargement direct des styles critiques -->
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <!-- Chargement des polices Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <!-- title & nav -->
+    <div class="top-header">
+      <h1 class="name">Luigi&nbsp;Papapicco</h1>
+      <!-- Liens de navigation -->
+      <nav>
+        <div class="nav">
+          <ul>
+            <li><a href="#about">À&nbsp;propos</a></li>
+            <li><a href="#technologies-carrousel">Technologies</a></li>
+            <li><a href="#galerie">Galerie</a></li>
+            <li>
+              <a href="mailto:luigi.papapicco.pro@gmail.com?subject=Prise%20de%20contact&body=Bonjour%20Luigi,">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- section about -->
+    <section id="about">
+      <div class="picture left">
+        <img src="assets/Images/illustration-developement-web.jpg" alt="illustration développement web" width="600" height="500">
+      </div>
+      <div id="about-me">
+        <h2 class="about-me__title">À propos de moi</h2>
+        <h3 class="about-me__introduction intro-h3">
+          Passionné d'informatique depuis ma jeunesse, j'ai d'abord suivi une carrière de musicien avant de me réinventer dans le domaine du numérique. Attiré par la <strong>modélisation 3D</strong> et la maîtrise d'un moteur graphique, j'ai appris en autodidacte le langage <strong>Python</strong>, qui a confirmé mon intérêt pour le développement informatique.
+        </h3>
+        <p class="about-me__content">
+          Cette passion m'a conduit à suivre une formation en <strong>intégration web</strong> chez OpenClassrooms, où j'ai acquis des compétences solides en <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> et <strong>React</strong>. En tant qu'intégrateur, je combine désormais mes connaissances techniques et ma créativité pour concevoir des sites web à la fois esthétiques et performants. Grâce à mon expérience en <strong>animation CSS</strong>, <strong>référencement</strong>, et en débogage, chaque projet bénéficie d'une approche complète et optimisée. Mon ambition est de transformer des idées en expériences web immersives et intuitives, tout en apportant une attention particulière aux besoins de mes clients.
+        </p>
+      </div>
+    </section>
+
+    <!-- section technologies -->
+    <section id="technologies-carrousel">
+      <h2 class="title-container">Technologies apprises</h2>
+
+      <!-- Conteneur du carrousel -->
+      <div class="carousel"></div>
+
+      <!-- Boutons de navigation du carrousel -->
+      <div class="carousel-buttons">
+        <button id="prev-btn">◀</button>
+        <button id="next-btn">▶</button>
+      </div>
+    </section>
+
+    <!-- galerie -->
+    <section id="galerie">
+      <!-- Filtres de galerie -->
+      <h2>Galerie</h2>
+      <div id="filters">
+        <button class="filter-btn" data-filter="Tous">Tous</button>
+        <button class="filter-btn" data-filter="HTML">HTML</button>
+        <button class="filter-btn" data-filter="CSS">CSS</button>
+        <button class="filter-btn" data-filter="Sass">Sass</button>
+        <button class="filter-btn" data-filter="JavaScript">JavaScript</button>
+        <button class="filter-btn" data-filter="React">React</button>
+      </div>
+
+      <!-- Galerie de projets -->
+      <div id="gallery-container" class="gallery-container"></div>
+
+      <!-- Modal pour les détails des projets -->
+      <div id="project-modal" class="modal">
+        <div class="modal-content">
+          <span class="close-btn">&times;</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <!-- informations personnelles -->
+    <div class="info-perso">
+      <!-- Liste des icônes de réseaux sociaux -->
+      <ul class="social-icons">
+        <li>
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" aria-label="X">
+            <img src="assets/icons/x.svg" alt="X">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <img src="assets/icons/facebook.svg" alt="Facebook">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <img src="assets/icons/instagram.svg" alt="Instagram">
+          </a>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <p>&copy; <span id="year"></span> Luigi Papapicco. Tous droits réservés.</p>
+          <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+          </script>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
