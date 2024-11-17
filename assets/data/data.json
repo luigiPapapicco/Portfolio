@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Booky",
       "description": "Début de l'alternance chez booki en tant que développeur web. L'entreprise veut développer un site Internet qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
-      "image": "./assets/Images/screen/home_booky.png",
+      "image": "./assets/Images/screen/home_booky.webp",
       "tags": ["HTML", "CSS"],
       "technologies": ["HTML", "CSS"],
       "link": "https://luigipapapicco.github.io/Booky/"
@@ -13,7 +13,7 @@
       "id": 2,
       "title": "Ohmyfood",
       "description": "Ohmyfood est une entreprise spécialisée dans la réservation de tables dans des restaurants gastronomiques à Paris, visant les amateurs de cuisine raffinée, connectées et souvent pressées. Elle propose des réservations rapides, des menus exclusifs créés par des chefs partenaires, et met en avant des restaurants innovants pour offrir des expériences culinaires uniques.",
-      "image": "./assets/Images/screen/home_ohmyfood.png",
+      "image": "./assets/Images/screen/home_ohmyfood.webp",
       "tags": ["HTML", "CSS", "Sass"],
       "technologies": ["HTML", "CSS", "SASS"],
       "link": "https://luigipapapicco.github.io/Ohmyfood/"
@@ -22,7 +22,7 @@
       "id": 3,
       "title": "Print It",
       "description": "Vous débutez comme développeur front-end en freelance, et venez de décrocher une offre pour dynamiser le site Internet statique de l'imprimerie Print it.",
-      "image": "./assets/Images/screen/home_printit.jpg",
+      "image": "./assets/Images/screen/home_printit.webp",
       "tags": ["HTML", "CSS", "JavaScript"],
       "technologies": ["HTML", "CSS", "Javascript"],
       "link": "https://luigipapapicco.github.io/Print_it/"
@@ -31,7 +31,7 @@
       "id": 4,
       "title": "Portfolio de l'architecte Sophie Bluel",
       "description": "Vous travaillez comme développeur front-end pour l'agence ArchiWebos sur la conception d'un site portfolio d'une architecte d'intérieur.",
-      "image": "./assets/Images/screen/home_sophiebluel.png",
+      "image": "./assets/Images/screen/home_sophiebluel.webp",
       "tags": ["HTML", "CSS", "JavaScript"],
       "technologies": ["HTML", "CSS", "Javascript"],
       "link": "https://github.com/luigiPapapicco/Sophie_Bluel/"
@@ -40,7 +40,7 @@
       "id": 5,
       "title": "Kasa",
       "description": "Kasa vous recrute en tant que développeur Frontend en Freelance pour développer sa nouvelle plateforme web. Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. La CTO a donc lancé une refonte total pour passer à une stack complète en JavaScript, avec Node.js côté Back-end et React.js côté Front-end, ce qui va être notre rôle ici.",
-      "image": "./assets/Images/screen/home_kasa.png",
+      "image": "./assets/Images/screen/home_kasa.webp",
       "tags": ["CSS", "JavaScript", "Sass", "React"],
       "technologies": ["CSS", "SASS", "Javascript", "React"],
       "link": "https://github.com/https://github.com/luigiPapapicco/Kasa"
